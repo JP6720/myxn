@@ -75,8 +75,8 @@ export default function Login({ navigation }) {
       console.log('aa')
         // Your code here
         GoogleSignin.configure({
-          // offlineAccess:false,
-            // scopes: ['https://www.googleapis.com/auth/drive.readonly'],
+          offlineAccess:false,
+            scopes: ['https://www.googleapis.com/auth/drive.readonly'],
             webClientId:"112479742610-75euappc0fvbsk4l34tnccbtaioal8ef.apps.googleusercontent.com"
         })
         _isSignedIn()
