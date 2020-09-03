@@ -1,0 +1,6 @@
+module Pods_myxn {
+  umbrella header "Pods-myxn-umbrella.h"
+
+  export *
+  module * { export * }
+}
