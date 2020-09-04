@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "112479742610-4t2j0ea29g1j77ouqhnh18afgm258jkr.apps.googleusercontent.com",
+          "client_id": "112479742610-umh2bami6vu1ontb6a0k4f3aoi41r66p.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.myxn",
-            "certificate_hash": "8fdf242b2feaa13a1201810ab0f835ee9f246642"
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
           }
         },
         {
