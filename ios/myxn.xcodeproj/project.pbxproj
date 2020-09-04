@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* myxnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* myxnTests.m */; };
 		016EDDBB76944502A7435E7D /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8E0B8815EF540E39C26C1AD /* MaterialCommunityIcons.ttf */; };
+		041A20B32502115F00FA4099 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A20B22502115F00FA4099 /* File.swift */; };
+		041A20B52502156B00FA4099 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041A20B42502156B00FA4099 /* GoogleService-Info.plist */; };
 		0C14B632643D4E1C88E54D97 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D494A5D87485C80EE8747 /* Ionicons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -61,6 +63,9 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* myxnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myxnTests.m; sourceTree = "<group>"; };
 		038980038927C82A7F1F29B2 /* Pods-myxn-myxnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myxn-myxnTests.release.xcconfig"; path = "Target Support Files/Pods-myxn-myxnTests/Pods-myxn-myxnTests.release.xcconfig"; sourceTree = "<group>"; };
+		041A20B12502115F00FA4099 /* myxn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myxn-Bridging-Header.h"; sourceTree = "<group>"; };
+		041A20B22502115F00FA4099 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		041A20B42502156B00FA4099 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* myxn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myxn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = myxn/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = myxn/AppDelegate.m; sourceTree = "<group>"; };
@@ -157,6 +162,7 @@
 		13B07FAE1A68108700A75B9A /* myxn */ = {
 			isa = PBXGroup;
 			children = (
+				041A20B42502156B00FA4099 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -164,6 +170,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				041A20B22502115F00FA4099 /* File.swift */,
+				041A20B12502115F00FA4099 /* myxn-Bridging-Header.h */,
 			);
 			name = myxn;
 			sourceTree = "<group>";
@@ -350,7 +358,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1010;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -407,6 +415,7 @@
 				33987B3B9CF54E0FA5ABD0D4 /* FontAwesome5_Regular.ttf in Resources */,
 				4BFAD96EAE924E248765CB05 /* FontAwesome5_Solid.ttf in Resources */,
 				675820EE7267424D9678D21C /* Fontisto.ttf in Resources */,
+				041A20B52502156B00FA4099 /* GoogleService-Info.plist in Resources */,
 				BFC2249BDE0248A58EF655E9 /* Foundation.ttf in Resources */,
 				0C14B632643D4E1C88E54D97 /* Ionicons.ttf in Resources */,
 				016EDDBB76944502A7435E7D /* MaterialCommunityIcons.ttf in Resources */,
@@ -723,6 +732,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				041A20B32502115F00FA4099 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -764,6 +774,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 917182F333CDBC482DE994C8 /* Pods-myxn-myxnTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -787,6 +798,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 038980038927C82A7F1F29B2 /* Pods-myxn-myxnTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = myxnTests/Info.plist;
@@ -819,10 +831,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.myxn;
 				PRODUCT_NAME = myxn;
+				SWIFT_OBJC_BRIDGING_HEADER = "myxn-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -842,9 +855,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.myxn;
 				PRODUCT_NAME = myxn;
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "myxn-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
